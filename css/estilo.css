@@ -1,8 +1,16 @@
 /*cabeçalho*/
 
+header img {
+    width: 70px;
+    height: 70px;
+  }
+  
 
 /*Conteudo principal*/
 
+main{
+    min-height: 500px ;
+}
 
 /*banner*/
 
