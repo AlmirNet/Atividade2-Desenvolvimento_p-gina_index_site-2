@@ -48,7 +48,7 @@
         <section id="section-login">
             <h1>Login</h1>
             <div class="d-flex justify-content-center">
-                <form method="post" action="" id="login">
+                <form method="post" action="" id="form-login"><!-- Corrigido o ID do formulário para evitar duplicação -->
                     <p>
                         <label for="usuario">Nome: </label>
                         <input id="usuario" name="usuario" required="required" type="text"
@@ -70,13 +70,11 @@
             <div id="botao-cadastrar">
                 <button type="button" class="btn btn-info">Não é cadastrado ainda? Cadastre-se</button>
             </div>
-            <div id="form-cadastrar">
-
+            <div id="form-cadastro"><!-- Corrigido o ID do formulário para evitar duplicação -->
                 <h1>Criar minha conta</h1>
                 <p>Informe os seus dados abaixo para criar sua conta.</p>
-
                 <div class="d-flex justify-content-center">
-                    <form method="post" action="" id="login">
+                    <form method="post" action="" id="form-cadastro"><!-- Corrigido o ID do formulário para evitar duplicação -->
                         <p>
                             <label for="usuario">Usuário: </label>
                             <input id="usuario" name="usuario" required="required" type="text"
@@ -98,13 +96,9 @@
                         </p>
                     </form>
                 </div>
-
             </div>
         </section>
-
     </main>
-
-
 
     <footer>
         <p>Desenvolvido por Almir Neto</p>
@@ -120,7 +114,6 @@
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery-script.js"></script>
-
 </body>
 
 </html>
